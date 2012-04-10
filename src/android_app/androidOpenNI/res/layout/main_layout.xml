@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout android:id="@+id/relativeLayout1" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:background="@android:color/black" 
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <cc.openframeworks.OFGLSurfaceView android:id="@+id/of_gl_surface"
+ 		android:layout_width="320px"
+ 		android:layout_height="240px"/>
+    	<!-- add here other views' layouts -->
+    	<cc.openframeworks.siprop.androidOpenNI.mindController.TimeSeriesChartView android:id="@+id/chart_view"
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="fill_parent"
+        android:background="@android:color/white" 
+ 		android:layout_toRightOf="@+id/of_gl_surface"/>
+    	<cc.openframeworks.siprop.androidOpenNI.radar.TreasureRadarView android:id="@+id/dragon_radar_view"
+    	android:layout_width="320px"
+    	android:layout_height="320px"
+    	android:layout_below="@+id/of_gl_surface"
+    	android:src="@drawable/radar" />
+    	<TextView android:id="@+id/treasure_message_view"
+    	android:layout_width="320px"
+    	android:layout_height="40px"
+    	android:layout_below="@+id/dragon_radar_view" />
+    	</RelativeLayout>

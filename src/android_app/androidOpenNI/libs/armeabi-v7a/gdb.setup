@@ -1,0 +1,6 @@
+set solib-search-path /home/noritsuna/treasure/app/openframeworks-openFrameworks-53dd099/apps/androidExamples/androidOpenNI/obj/local/armeabi-v7a:/home/noritsuna/treasure/app/openframeworks-openFrameworks-53dd099/apps/androidExamples/androidOpenNI/libs/armeabi-v7a
+directory /home/noritsuna/treasure/app/android-ndk-r6b/platforms/android-8/arch-arm/usr/include
+directory /home/noritsuna/treasure/app/openframeworks-openFrameworks-53dd099/apps/androidExamples/androidOpenNI/src
+directory /home/noritsuna/treasure/app/android-ndk-r6b/sources/cxx-stl/system
+directory /home/noritsuna/treasure/app/openframeworks-openFrameworks-53dd099/apps/androidExamples/androidOpenNI/libs/armeabi-v7a
+

@@ -1,0 +1,7 @@
+setenv initrd_high "0xffffffff"
+setenv fdt_high "0xffffffff"
+setenv bootcmd "fatload mmc 0:1 0x80200000 uImage; fatload mmc 0:1 0x81600000 uInitrd; bootm 0x80200000 0x81600000"
+setenv bootargs "console=tty0 console=ttyO2,115200n8  root=UUID=af10642e-8ac4-4597-bcd5-699b2a9a6b55 rootwait ro earlyprintk fixrtc nocompcache omapfb.mode=dvi:800x480MR-16@60 mem=456M@0x80000000 mem=512M@0xA0000000 androidboot.console=ttyO2
+"
+boot
+

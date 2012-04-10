@@ -1,0 +1,17 @@
+config VIDEO_OMAP2_VOUT
+	tristate "OMAP2/OMAP3/OMAP4 V4L2-Display driver"
+	depends on OMAP4_USE_OLD_API_VIDEO
+	select VIDEOBUF_GEN
+	select VIDEOBUF_DMA_CONTIG
+	select OMAP2_DSS
+	select OMAP2_VRAM
+	default y
+	---help---
+	  V4L2 Display driver support for OMAP2/3/4 based boards.
+
+config OMAP2_VRFB
+	bool
+	depends on OMAP4_USE_OLD_API_VIDEO
+	default y if VIDEO_OMAP2_VOUT
+	help
+	  VRFB used in V4L2 in OMAP2,3

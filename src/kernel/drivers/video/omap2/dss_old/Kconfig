@@ -1,0 +1,73 @@
+menuconfig OMAP2_DSS
+        tristate "OMAP2/3/4 Display Subsystem support (EXPERIMENTAL)"
+        depends on OMAP4_USE_OLD_API_VIDEO
+	default y
+        help
+          OMAP2/3/4 Display Subsystem support.
+
+if OMAP2_DSS
+
+config OMAP2_VRAM_SIZE
+	int "VRAM size (MB)"
+	range 0 32
+	default 32
+	help
+	  The amount of SDRAM to reserve at boot time for video RAM use.
+	  This VRAM will be used by omapfb and other drivers that need
+	  large continuous RAM area for video use.
+
+	  You can also set this with "vram=<bytes>" kernel argument, or
+	  in the board file.
+
+config OMAP2_DSS_DEBUG_SUPPORT
+        bool "Debug support"
+	default y
+	help
+	  This enables debug messages. You need to enable printing
+	  with 'debug' module parameter.
+
+config OMAP2_DSS_COLLECT_IRQ_STATS
+	bool "Collect DSS IRQ statistics"
+	depends on OMAP2_DSS_DEBUG_SUPPORT
+	default n
+	help
+	  Collect DSS IRQ statistics, printable via debugfs.
+
+	  The statistics can be found from
+	  <debugfs>/omapdss/dispc_irq for DISPC interrupts, and
+	  <debugfs>/omapdss/dsi_irq for DSI interrupts.
+
+config OMAP4_DSS_HDMI
+	bool "HDMI support"
+        default n
+	help
+	  OMAP HDMI panel support.
+
+config OMAP2_DSS_FAKE_VSYNC
+	bool "Fake VSYNC irq from manual update displays"
+	default y
+	help
+	  If this is selected, DSI will generate a fake DISPC VSYNC interrupt
+	  when DSI has sent a frame. This is only needed with DSI or RFBI
+	  displays using manual mode, and you want VSYNC to, for example,
+	  time animation.
+
+config OMAP2_DSS_MIN_FCK_PER_PCK
+	int "Minimum FCK/PCK ratio (for scaling)"
+	range 0 32
+	default 0
+	help
+	  This can be used to adjust the minimum FCK/PCK ratio.
+
+	  With this you can make sure that DISPC FCK is at least
+	  n x PCK. Video plane scaling requires higher FCK than
+	  normally.
+
+	  If this is set to 0, there's no extra constraint on the
+	  DISPC FCK. However, the FCK will at minimum be
+	  2xPCK (if active matrix) or 3xPCK (if passive matrix).
+
+	  Max FCK is 173MHz, so this doesn't work if your PCK
+	  is very high.
+
+endif

@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<ArrayOfAnyType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <anyType xsi:type="ActivityData">
+    <Name>CmpAD1</Name>
+    <GUID>29f8b958-b318-4491-8d30-bbc620fbfdc3</GUID>
+    <Location>
+      <X>156</X>
+      <Y>79</Y>
+    </Location>
+    <Size>
+      <Width>64</Width>
+      <Height>48</Height>
+    </Size>
+    <Text>CmpAD1</Text>
+    <BackColorText>buttonface</BackColorText>
+    <MotionFlag>None</MotionFlag>
+    <PriorityList>
+      <anyType xsi:type="xsd:string">00 04 00 01</anyType>
+    </PriorityList>
+    <BaseName>CmpAD</BaseName>
+    <Description>アナログ値を元に分岐する</Description>
+    <Group>Compare</Group>
+    <Path />
+    <ConnectedGuids>00000000-0000-0000-0000-000000000000,b21ddb13-3e92-4c8b-a540-015a11696f87,d04273d9-2d75-48fe-816b-b052d85ffc05,19329360-67a3-4ca7-b8d8-1ca17e99140b</ConnectedGuids>
+    <ConnectTypes>NotConnected,BeginConnect,EndConnect,BeginConnect</ConnectTypes>
+    <ProgramCode>
+      <anyType xsi:type="xsd:string">09 07 82 2A 00 00 C8 00 84</anyType>
+      <anyType xsi:type="xsd:string">07 0B FF FF FF 08 17</anyType>
+    </ProgramCode>
+  </anyType>
+  <anyType xsi:type="ActivityData">
+    <Name>CmpAD5</Name>
+    <GUID>d790ed49-7241-4a9a-ab5a-126dab1193aa</GUID>
+    <Location>
+      <X>40</X>
+      <Y>80</Y>
+    </Location>
+    <Size>
+      <Width>64</Width>
+      <Height>48</Height>
+    </Size>
+    <Text>CmpAD5</Text>
+    <BackColorText>buttonface</BackColorText>
+    <MotionFlag>Start</MotionFlag>
+    <PriorityList>
+      <anyType xsi:type="xsd:string">00 04 00 01</anyType>
+    </PriorityList>
+    <BaseName>CmpAD</BaseName>
+    <Description>アナログ値を元に分岐する</Description>
+    <Group>Compare</Group>
+    <Path />
+    <ConnectedGuids>00000000-0000-0000-0000-000000000000,adc936df-3aa7-4b5a-95f7-69c2b7e4547c,00000000-0000-0000-0000-000000000000,d04273d9-2d75-48fe-816b-b052d85ffc05</ConnectedGuids>
+    <ConnectTypes>NotConnected,BeginConnect,NotConnected,BeginConnect</ConnectTypes>
+    <ProgramCode>
+      <anyType xsi:type="xsd:string">09 07 82 28 00 00 5E 01 19</anyType>
+      <anyType xsi:type="xsd:string">07 0B FF FF FF 0A 19</anyType>
+    </ProgramCode>
+  </anyType>
+  <anyType xsi:type="ActivityData">
+    <Name>Pos4</Name>
+    <GUID>a0fe485e-e60f-4db0-9985-d86100fe3fcb</GUID>
+    <Location>
+      <X>288</X>
+      <Y>112</Y>
+    </Location>
+    <Size>
+      <Width>64</Width>
+      <Height>64</Height>
+    </Size>
+    <Text>Pos4</Text>
+    <BackColorText>buttonface</BackColorText>
+    <MotionFlag>None</MotionFlag>
+    <PriorityList>
+      <anyType xsi:type="xsd:string">00 00 00 00</anyType>
+    </PriorityList>
+    <BaseName>Pos</BaseName>
+    <Description>ポジション設定</Description>
+    <Group>Position</Group>
+    <Path />
+    <ConnectedGuids>00000000-0000-0000-0000-000000000000,00000000-0000-0000-0000-000000000000,19329360-67a3-4ca7-b8d8-1ca17e99140b,00000000-0000-0000-0000-000000000000</ConnectedGuids>
+    <ConnectTypes>NotConnected,NotConnected,EndConnect,NotConnected</ConnectTypes>
+    <ProgramCode>
+      <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 01 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D A4</anyType>
+    </ProgramCode>
+  </anyType>
+  <anyType xsi:type="ActivityData">
+    <Name>MotionJump3</Name>
+    <GUID>e26e0e4c-ab3a-4e24-955a-fb26940b7f5d</GUID>
+    <Location>
+      <X>156</X>
+      <Y>188</Y>
+    </Location>
+    <Size>
+      <Width>64</Width>
+      <Height>48</Height>
+    </Size>
+    <Text>MotionJump3</Text>
+    <BackColorText>buttonface</BackColorText>
+    <MotionFlag>None</MotionFlag>
+    <PriorityList>
+      <anyType xsi:type="xsd:string">00 00 00 00</anyType>
+    </PriorityList>
+    <BaseName>MotionJump</BaseName>
+    <Description>モーション間移動</Description>
+    <Group>Jump</Group>
+    <Path />
+    <ConnectedGuids>b21ddb13-3e92-4c8b-a540-015a11696f87,00000000-0000-0000-0000-000000000000,00000000-0000-0000-0000-000000000000,00000000-0000-0000-0000-000000000000</ConnectedGuids>
+    <ConnectTypes>EndConnect,NotConnected,NotConnected,NotConnected</ConnectTypes>
+    <ProgramCode>
+      <anyType xsi:type="xsd:string">07 0B B8 15 01 00 E0</anyType>
+    </ProgramCode>
+  </anyType>
+  <anyType xsi:type="ActivityData">
+    <Name>MotionJump2</Name>
+    <GUID>0c99d72b-766e-41a2-936c-edda7531b9be</GUID>
+    <Location>
+      <X>40</X>
+      <Y>192</Y>
+    </Location>
+    <Size>
+      <Width>64</Width>
+      <Height>48</Height>
+    </Size>
+    <Text>MotionJump2</Text>
+    <BackColorText>buttonface</BackColorText>
+    <MotionFlag>None</MotionFlag>
+    <PriorityList>
+      <anyType xsi:type="xsd:string">00 00 00 00</anyType>
+    </PriorityList>
+    <BaseName>MotionJump</BaseName>
+    <Description>モーション間移動</Description>
+    <Group>Jump</Group>
+    <Path />
+    <ConnectedGuids>adc936df-3aa7-4b5a-95f7-69c2b7e4547c,00000000-0000-0000-0000-000000000000,00000000-0000-0000-0000-000000000000,00000000-0000-0000-0000-000000000000</ConnectedGuids>
+    <ConnectTypes>EndConnect,NotConnected,NotConnected,NotConnected</ConnectTypes>
+    <ProgramCode>
+      <anyType xsi:type="xsd:string">07 0B B8 02 01 00 CD</anyType>
+    </ProgramCode>
+  </anyType>
+  <anyType xsi:type="LineData">
+    <Name />
+    <StartPoint>
+      <X>216</X>
+      <Y>103</Y>
+    </StartPoint>
+    <EndPoint>
+      <X>290</X>
+      <Y>144</Y>
+    </EndPoint>
+    <GUID>19329360-67a3-4ca7-b8d8-1ca17e99140b</GUID>
+    <LineType>Straight</LineType>
+  </anyType>
+  <anyType xsi:type="LineData">
+    <Name />
+    <StartPoint>
+      <X>72</X>
+      <Y>124</Y>
+    </StartPoint>
+    <EndPoint>
+      <X>72</X>
+      <Y>194</Y>
+    </EndPoint>
+    <GUID>adc936df-3aa7-4b5a-95f7-69c2b7e4547c</GUID>
+    <LineType>Straight</LineType>
+  </anyType>
+  <anyType xsi:type="LineData">
+    <Name />
+    <StartPoint>
+      <X>100</X>
+      <Y>104</Y>
+    </StartPoint>
+    <EndPoint>
+      <X>158</X>
+      <Y>103</Y>
+    </EndPoint>
+    <GUID>d04273d9-2d75-48fe-816b-b052d85ffc05</GUID>
+    <LineType>Straight</LineType>
+  </anyType>
+  <anyType xsi:type="LineData">
+    <Name />
+    <StartPoint>
+      <X>188</X>
+      <Y>123</Y>
+    </StartPoint>
+    <EndPoint>
+      <X>188</X>
+      <Y>190</Y>
+    </EndPoint>
+    <GUID>b21ddb13-3e92-4c8b-a540-015a11696f87</GUID>
+    <LineType>Straight</LineType>
+  </anyType>
+</ArrayOfAnyType>

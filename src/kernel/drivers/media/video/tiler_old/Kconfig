@@ -1,0 +1,7 @@
+config TI_TILER
+	bool "TI TILER support"
+	depends on OMAP4_USE_OLD_API_VIDEO
+	default y
+	help
+           TILER driver for OMAP based boards.
+

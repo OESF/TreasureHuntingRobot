@@ -1,0 +1,6 @@
+set solib-search-path /Users/kaoru/Documents/openFrameworks/apps/androidExamples/androidOpenNI/obj/local/armeabi:/Users/kaoru/Documents/openFrameworks/apps/androidExamples/androidOpenNI/libs/armeabi
+directory /Users/kaoru/Documents/android-sdk-mac_86/ndk/android-ndk-r6b/platforms/android-8/arch-arm/usr/include
+directory /Users/kaoru/Documents/openFrameworks/apps/androidExamples/androidOpenNI/src
+directory /Users/kaoru/Documents/android-sdk-mac_86/ndk/android-ndk-r6b/sources/cxx-stl/system
+directory /Users/kaoru/Documents/openFrameworks/apps/androidExamples/androidOpenNI/libs/armeabi
+

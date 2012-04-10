@@ -1,0 +1,4 @@
+# UNCONFIGURED FSTAB FOR BASE SYSTEM
+
+UUID=b4bb7733-d604-4acd-a7da-14abc0aea72c / ext4  errors=remount-ro 0 1
+/dev/mmcblk0p7 /usr/etc/primesense ext4 defaults 0 0

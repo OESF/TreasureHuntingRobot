@@ -1,0 +1,6 @@
+config DMM_OMAP
+	bool "OMAP DMM support"
+	depends on OMAP4_USE_OLD_API_VIDEO
+	default y
+	help
+           DMM driver for OMAP based boards.
