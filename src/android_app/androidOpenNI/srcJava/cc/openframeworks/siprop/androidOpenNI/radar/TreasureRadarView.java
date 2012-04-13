@@ -69,13 +69,17 @@ public class TreasureRadarView extends ImageView {
 	private Random rnd = new Random();
     private Point robotPoint = new Point(100, 100);
 	private float robotDirection = 0.0f;
-	private boolean isChengedRobotDirection = false;
 	private Bitmap robotBitmap = null;
+	private float[] directionAnimation = new float[directionAnimationSize];
+	private int directionAnimationCurrentIndex = 0;
+	private static int directionAnimationSize = 20;
+    
 	private boolean isMoveRobot = false;
 	private Point[] walkingAnimation = new Point[walkingAnimationSize];
 	private int walkingAnimationCurrentIndex = 0;
 	private static int walkingAnimationSize = 80;
-    
+
+	
 	private OFActivity callbackActivity = null;
 	
     
@@ -95,7 +99,6 @@ public class TreasureRadarView extends ImageView {
 			Matrix matrix = new Matrix();
 	        matrix.postRotate(robotDirection);
 	        robotBitmap = Bitmap.createBitmap(robot_marker, 0, 0, robot_marker.getWidth(), robot_marker.getHeight(), matrix, true);
-	        isChengedRobotDirection = false;
     	}
     	
     	for(int i = 0; i < handList.length; i++) {
@@ -121,8 +124,22 @@ public class TreasureRadarView extends ImageView {
         radarDrawHandler.sleep(REPEAT_INTERVAL);
     }
     public void updateRobotDirection(float direction) {
-    	robotDirection = direction;
-        isChengedRobotDirection = true;
+    	float oldDirection = robotDirection;
+    	robotDirection = direction % 360.0f;
+        directionAnimationCurrentIndex = 0;
+    	float newDirection = robotDirection;
+        
+        if( oldDirection > 270 && robotDirection < 90) {
+        	newDirection = robotDirection + 360.0f;
+        } else if(oldDirection < 90 && robotDirection > 270) {
+        	oldDirection = oldDirection + 360.0f;
+        }
+        
+        float diffDirection = (newDirection - oldDirection) / (float)directionAnimationSize;
+        for(int i=0; i<directionAnimationSize; i++) {
+        	directionAnimation[i] = (oldDirection + diffDirection * i) % 360.0f;
+        }
+        
     }
     public void updateGoToward(boolean isMove) {
     	isMoveRobot = isMove;
@@ -192,11 +209,11 @@ public class TreasureRadarView extends ImageView {
         }
         
         // draw robot marker.
-        if(isChengedRobotDirection) {
+        if(directionAnimationCurrentIndex < directionAnimationSize) {
     		Matrix matrix = new Matrix();
-            matrix.postRotate(robotDirection);
+            matrix.postRotate(directionAnimation[directionAnimationCurrentIndex]);
             robotBitmap = Bitmap.createBitmap(robot_marker, 0, 0, robot_marker.getWidth(), robot_marker.getHeight(), matrix, true);
-            isChengedRobotDirection = false;
+            directionAnimationCurrentIndex++;
         }
         canvas.drawBitmap(robotBitmap, -(robotBitmap.getWidth()-robot_marker.getWidth())/2 + offsetWidth, -(robotBitmap.getHeight()-robot_marker.getHeight())/2 + offsetHight, null);
 
