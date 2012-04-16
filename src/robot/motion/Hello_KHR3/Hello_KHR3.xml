@@ -51,7 +51,7 @@
       <Value xsi:type="Motion">
         <Number>0</Number>
         <Name>HLO001_挨拶</Name>
-        <Date>2009-07-15T21:22:22.578125+09:00</Date>
+        <Date>2009-07-15T20:22:22.578125+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -71,7 +71,7 @@
       <Value xsi:type="Motion">
         <Number>1</Number>
         <Name>HLO002_ホームポジション(Hello_KHR3)</Name>
-        <Date>2009-07-15T21:22:27.71875+09:00</Date>
+        <Date>2009-07-15T20:22:27.71875+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -88,7 +88,7 @@
       <Value xsi:type="Motion">
         <Number>2</Number>
         <Name>HLO003_手を振る</Name>
-        <Date>2009-07-15T21:22:34.578125+09:00</Date>
+        <Date>2009-07-15T20:22:34.578125+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -122,7 +122,7 @@
       <Value xsi:type="Motion">
         <Number>3</Number>
         <Name>HLO004_エイエイオー</Name>
-        <Date>2009-07-15T21:22:39.984375+09:00</Date>
+        <Date>2009-07-15T20:22:39.984375+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -151,7 +151,7 @@
       <Value xsi:type="Motion">
         <Number>4</Number>
         <Name>HLO005_悔しがる</Name>
-        <Date>2009-07-15T21:22:47.78125+09:00</Date>
+        <Date>2009-07-15T20:22:47.78125+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -194,7 +194,7 @@
       <Value xsi:type="Motion">
         <Number>5</Number>
         <Name>HLO006_逆立ち</Name>
-        <Date>2009-09-03T15:34:40.71875+09:00</Date>
+        <Date>2009-09-03T14:34:40.71875+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -238,7 +238,7 @@
       <Value xsi:type="Motion">
         <Number>6</Number>
         <Name>M07</Name>
-        <Date>2012-02-10T19:34:05.601088+09:00</Date>
+        <Date>2012-02-10T18:34:05.601088+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData />
@@ -252,7 +252,7 @@
       <Value xsi:type="Motion">
         <Number>7</Number>
         <Name>HLO008_拍手(M40呼び出し_カウンタ10回)</Name>
-        <Date>2009-07-15T21:24:19.71875+09:00</Date>
+        <Date>2009-07-15T20:24:19.71875+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -275,7 +275,7 @@
       <Value xsi:type="Motion">
         <Number>8</Number>
         <Name>HLO009_三三七拍子(M40呼び出し)</Name>
-        <Date>2009-07-15T21:27:43.53125+09:00</Date>
+        <Date>2009-07-15T20:27:43.53125+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -302,7 +302,7 @@
       <Value xsi:type="Motion">
         <Number>9</Number>
         <Name>HLO010_腕立て伏せ(カウンタ10回)</Name>
-        <Date>2009-07-15T21:24:26.8125+09:00</Date>
+        <Date>2009-07-15T20:24:26.8125+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -342,7 +342,7 @@
       <Value xsi:type="Motion">
         <Number>10</Number>
         <Name>HLO011_片足屈伸(カウンタ5回)</Name>
-        <Date>2009-07-15T21:24:36.703125+09:00</Date>
+        <Date>2009-07-15T20:24:36.703125+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -378,7 +378,7 @@
       <Value xsi:type="Motion">
         <Number>11</Number>
         <Name>HLO012_ウサギ跳びA(カウンタ3回)</Name>
-        <Date>2009-07-15T21:24:51.5+09:00</Date>
+        <Date>2009-07-15T20:24:51.5+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -411,7 +411,7 @@
       <Value xsi:type="Motion">
         <Number>12</Number>
         <Name>HLO013_ウサギ跳びB(カウンタ3回)</Name>
-        <Date>2009-07-15T21:25:29.21875+09:00</Date>
+        <Date>2009-07-15T20:25:29.21875+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -444,7 +444,7 @@
       <Value xsi:type="Motion">
         <Number>13</Number>
         <Name>HLO014_起きあがり(うつぶせ)</Name>
-        <Date>2009-07-15T21:25:38.640625+09:00</Date>
+        <Date>2009-07-15T20:25:38.640625+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -472,7 +472,7 @@
       <Value xsi:type="Motion">
         <Number>14</Number>
         <Name>HLO015_起きあがり(仰向け)</Name>
-        <Date>2009-07-15T21:25:43.75+09:00</Date>
+        <Date>2009-07-15T20:25:43.75+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -504,7 +504,7 @@
       <Value xsi:type="Motion">
         <Number>15</Number>
         <Name>HLO016_安全歩行(前進_カウンタ5回)</Name>
-        <Date>2009-07-15T21:36:13.34375+09:00</Date>
+        <Date>2009-07-15T20:36:13.34375+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -547,7 +547,7 @@
       <Value xsi:type="Motion">
         <Number>16</Number>
         <Name>HLO017_安全歩行(バック_カウンタ5歩)</Name>
-        <Date>2009-07-15T21:57:40.484375+09:00</Date>
+        <Date>2009-07-15T20:57:40.484375+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -590,7 +590,7 @@
       <Value xsi:type="Motion">
         <Number>17</Number>
         <Name>HLO018_安全歩行(左ステップ_カウンタ5歩)</Name>
-        <Date>2009-07-15T21:26:02.734375+09:00</Date>
+        <Date>2009-07-15T20:26:02.734375+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -619,7 +619,7 @@
       <Value xsi:type="Motion">
         <Number>18</Number>
         <Name>HLO019_安全歩行(右ステップ_カウンタ5歩)</Name>
-        <Date>2009-07-15T21:26:10.078125+09:00</Date>
+        <Date>2009-07-15T20:26:10.078125+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -648,7 +648,7 @@
       <Value xsi:type="Motion">
         <Number>19</Number>
         <Name>HLO020_高速旋回A(左_カウンタ5回)</Name>
-        <Date>2009-07-15T21:44:57.78125+09:00</Date>
+        <Date>2009-07-15T20:44:57.78125+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -677,7 +677,7 @@
       <Value xsi:type="Motion">
         <Number>20</Number>
         <Name>HLO021_高速旋回A(右_カウンタ5回)</Name>
-        <Date>2009-07-15T21:45:04.703125+09:00</Date>
+        <Date>2009-07-15T20:45:04.703125+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -706,7 +706,7 @@
       <Value xsi:type="Motion">
         <Number>21</Number>
         <Name>HLO022_標準歩行A(前進_カウンタ5歩)</Name>
-        <Date>2009-07-15T21:45:10.1875+09:00</Date>
+        <Date>2009-07-15T20:45:10.1875+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -746,7 +746,7 @@
       <Value xsi:type="Motion">
         <Number>22</Number>
         <Name>HLO023_標準歩行A(バック_カウンタ5歩)</Name>
-        <Date>2009-07-15T21:45:15.8125+09:00</Date>
+        <Date>2009-07-15T20:45:15.8125+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -786,7 +786,7 @@
       <Value xsi:type="Motion">
         <Number>23</Number>
         <Name>HLO024_標準歩行A(左ステップ_カウンタ5歩)</Name>
-        <Date>2009-07-15T22:45:03.25+09:00</Date>
+        <Date>2009-07-15T21:45:03.25+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -816,7 +816,7 @@
       <Value xsi:type="Motion">
         <Number>24</Number>
         <Name>HLO025_標準歩行A(右ステップ_カウンタ5歩)</Name>
-        <Date>2009-07-15T22:44:15.84375+09:00</Date>
+        <Date>2009-07-15T21:44:15.84375+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -846,7 +846,7 @@
       <Value xsi:type="Motion">
         <Number>25</Number>
         <Name>HLO026_ボールを前に蹴る(左脚)</Name>
-        <Date>2009-07-15T21:27:09.1875+09:00</Date>
+        <Date>2009-07-15T20:27:09.1875+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -873,7 +873,7 @@
       <Value xsi:type="Motion">
         <Number>26</Number>
         <Name>HLO027_ボールを前に蹴る(右脚)</Name>
-        <Date>2009-07-15T21:27:14.421875+09:00</Date>
+        <Date>2009-07-15T20:27:14.421875+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -900,7 +900,7 @@
       <Value xsi:type="Motion">
         <Number>27</Number>
         <Name>HLO028_ボールを横に蹴る(左脚)</Name>
-        <Date>2009-07-15T21:27:21.234375+09:00</Date>
+        <Date>2009-07-15T20:27:21.234375+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -924,7 +924,7 @@
       <Value xsi:type="Motion">
         <Number>28</Number>
         <Name>HLO029_ボールを横に蹴る(右脚)</Name>
-        <Date>2009-07-15T21:27:27.078125+09:00</Date>
+        <Date>2009-07-15T20:27:27.078125+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -948,7 +948,7 @@
       <Value xsi:type="Motion">
         <Number>29</Number>
         <Name>HLO030_ボールを後ろに蹴る(左脚)</Name>
-        <Date>2009-07-16T09:09:04.4196138+09:00</Date>
+        <Date>2009-07-16T08:09:04.4196138+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -975,7 +975,7 @@
       <Value xsi:type="Motion">
         <Number>30</Number>
         <Name>HLO031_ボールを後ろに蹴る(右脚)</Name>
-        <Date>2009-07-16T09:09:49.9196138+09:00</Date>
+        <Date>2009-07-16T08:09:49.9196138+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -1002,7 +1002,7 @@
       <Value xsi:type="Motion">
         <Number>31</Number>
         <Name>HLO036_うつぶせになる</Name>
-        <Date>2009-09-03T15:36:23.921875+09:00</Date>
+        <Date>2009-09-03T14:36:23.921875+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -1025,7 +1025,7 @@
       <Value xsi:type="Motion">
         <Number>32</Number>
         <Name>HLO037_仰向けになる</Name>
-        <Date>2009-09-03T15:36:32.65625+09:00</Date>
+        <Date>2009-09-03T14:36:32.65625+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -1045,7 +1045,7 @@
       <Value xsi:type="Motion">
         <Number>33</Number>
         <Name>HLO038_横パンチA(左)</Name>
-        <Date>2009-09-03T16:42:37.625+09:00</Date>
+        <Date>2009-09-03T15:42:37.625+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -1072,7 +1072,7 @@
       <Value xsi:type="Motion">
         <Number>34</Number>
         <Name>HLO039_横パンチA(右)</Name>
-        <Date>2009-09-03T16:43:51.8125+09:00</Date>
+        <Date>2009-09-03T15:43:51.8125+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -1099,7 +1099,7 @@
       <Value xsi:type="Motion">
         <Number>35</Number>
         <Name>転倒起立</Name>
-        <Date>2012-02-10T19:33:48.3571017+09:00</Date>
+        <Date>2012-02-10T18:33:48.3571017+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -1124,18 +1124,21 @@
       <Value xsi:type="Motion">
         <Number>36</Number>
         <Name>キャリブレーションポーズ</Name>
-        <Date>2012-04-04T11:38:35.3188689+09:00</Date>
+        <Date>2012-04-16T16:34:38.8589791+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
+          <anyType xsi:type="xsd:string">09 07 82 2C 00 00 8C 00 4A</anyType>
+          <anyType xsi:type="xsd:string">07 0B F6 B7 02 08 C9</anyType>
+          <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 64 4C 1D 0A 1D CA 13 F7 24 D6 12 6F 1C 5D 24 6C 20 2C 1A 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 80 20 5E 1A EA</anyType>
+          <anyType xsi:type="xsd:string">03 0D 10</anyType>
           <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 1E 4C 1D 58 1B 40 1F 14 1E 84 1C 64 19 34 21 4C 1D 4C 1D 40 1F 58 1B 34 21 64 19 26 1B 72 1F 4C 1D 4C 1D C1</anyType>
           <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 28 4C 1D 58 1B 40 1F 14 1E 84 1C 64 19 34 21 DC 1E DC 1E 40 1F 58 1B 34 21 64 19 26 1B 72 1F DC 1E DC 1E 0F</anyType>
           <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 0E 4C 1D 58 1B 40 1F 14 1E 84 1C 64 19 34 21 DC 1E DC 1E 40 1F 58 1B 34 21 64 19 26 1B 72 1F DC 1E DC 1E F5</anyType>
           <anyType xsi:type="xsd:string">0E 12 00 A0 2A 00 00 01 7F 7F 7F 7F 7F 66</anyType>
           <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 23 4C 1D 64 19 34 21 40 1F 58 1B 88 13 10 27 DC 1E DC 1E 1C 25 F4 1A EC 2C 64 19 7C 15 DC 1E 4C 1D DC 1E 72</anyType>
           <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 23 4C 1D 86 1D 4C 1D BA 20 E7 19 4C 1D 4C 1D 80 20 DC 1E 5E 1D F4 1A 6D 1D 64 19 5F 1D DC 1E 40 1F DC 1E E7</anyType>
-          <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 64 4C 1D 0A 1D CA 13 F7 24 D6 12 6F 1C 5D 24 6C 20 2C 1A 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 80 20 5E 1A EA</anyType>
-          <anyType xsi:type="xsd:string">03 0D 10</anyType>
+          <anyType xsi:type="xsd:string">07 0B C8 B7 02 00 93</anyType>
         </MotionData>
         <Address>178104</Address>
         <KeyCode>None</KeyCode>
@@ -1147,15 +1150,21 @@
       <Value xsi:type="Motion">
         <Number>37</Number>
         <Name>キャリブレーション～ホーム</Name>
-        <Date>2012-04-04T11:38:44.1123719+09:00</Date>
+        <Date>2012-04-16T16:34:53.0797924+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
-          <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 23 4C 1D 86 1D 4C 1D BA 20 E7 19 4C 1D 4C 1D 6C 20 DC 1E 5E 1D F4 1A 6D 1D 64 19 5F 1D DC 1E 40 1F DC 1E D3</anyType>
-          <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 28 4C 1D 64 19 34 21 40 1F 58 1B 88 13 10 27 A4 1F DC 1E 34 21 4C 1D 1C 25 4C 1D 64 19 4C 1D A4 1F DC 1E 79</anyType>
-          <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 46 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D E9</anyType>
+          <anyType xsi:type="xsd:string">09 07 82 2C 00 00 BE 00 7C</anyType>
+          <anyType xsi:type="xsd:string">07 0B 05 CB 02 0A EE</anyType>
+          <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 C8 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 6B</anyType>
           <anyType xsi:type="xsd:string">0F 12 00 C0 0F 00 00 01 3C 3C 3C 3C 3C 3C 59</anyType>
           <anyType xsi:type="xsd:string">03 0D 10</anyType>
+          <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 64 4C 1D 0A 1D 35 1D F7 24 3B 1A 6F 1C D9 1C 6C 20 32 1A 4C 1D D7 13 4C 1D 6C 0F 4C 1D 7E 22 80 20 5E 1C 12</anyType>
+          <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 64 4C 1D 0A 1D 35 1D F7 24 3B 1A 6F 1C D9 1C 4C 1D 32 1A 28 27 D7 13 13 2A 6C 0F 82 19 7E 22 86 1E 5E 1C DF</anyType>
+          <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 64 4C 1D 25 1D 35 1D 61 1F 3B 1A 83 1C D9 1C 4C 1D 1F 1A 28 27 69 18 13 2A 4B 17 82 19 B5 1F 53 1B 8D 19 08</anyType>
+          <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 64 4C 1D 25 1D 35 1D 61 1F 3B 1A 83 1C D9 1C 4C 1D 4D 1D 28 27 52 14 13 2A 9E 11 82 19 F1 20 53 1B 90 1A AC</anyType>
+          <anyType xsi:type="xsd:string">2B 10 3D F3 3F 00 00 64 4C 1D 25 1D 35 1D 61 1F 3B 1A 83 1C D9 1C 4C 1D 4D 1D 0E 2B C5 10 D8 2E 7F 0B E8 18 84 23 37 1D 31 1D 2E</anyType>
+          <anyType xsi:type="xsd:string">07 0B C8 CA 02 00 A6</anyType>
         </MotionData>
         <Address>182968</Address>
         <KeyCode>None</KeyCode>
@@ -1167,7 +1176,7 @@
       <Value xsi:type="Motion">
         <Number>38</Number>
         <Name>M39</Name>
-        <Date>2009-07-10T10:38:52.421875+09:00</Date>
+        <Date>2009-07-10T09:38:52.421875+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData />
@@ -1181,7 +1190,7 @@
       <Value xsi:type="Motion">
         <Number>39</Number>
         <Name>HLO007_拍手ルーチン(必ずM40にビルド)</Name>
-        <Date>2009-07-15T21:23:01.375+09:00</Date>
+        <Date>2009-07-15T20:23:01.375+08:00</Date>
         <ButtonData>0</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -1205,7 +1214,7 @@
       <Value xsi:type="Motion">
         <Number>40</Number>
         <Name>HLO016RC_安全歩行(前進)無線対応</Name>
-        <Date>2009-07-16T09:16:42.7164888+09:00</Date>
+        <Date>2009-07-16T08:16:42.7164888+08:00</Date>
         <ButtonData>1</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -1247,7 +1256,7 @@
       <Value xsi:type="Motion">
         <Number>41</Number>
         <Name>HLO017RC_安全歩行(バック)無線対応</Name>
-        <Date>2009-07-16T09:16:46.7008638+09:00</Date>
+        <Date>2009-07-16T08:16:46.7008638+08:00</Date>
         <ButtonData>2</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -1289,7 +1298,7 @@
       <Value xsi:type="Motion">
         <Number>42</Number>
         <Name>HLO018RC_安全歩行(左ステップ)無線対応</Name>
-        <Date>2009-07-16T09:16:54.1227388+09:00</Date>
+        <Date>2009-07-16T08:16:54.1227388+08:00</Date>
         <ButtonData>8</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -1317,7 +1326,7 @@
       <Value xsi:type="Motion">
         <Number>43</Number>
         <Name>HLO019RC_安全歩行(右ステップ)無線対応</Name>
-        <Date>2009-07-16T09:16:59.1227388+09:00</Date>
+        <Date>2009-07-16T08:16:59.1227388+08:00</Date>
         <ButtonData>4</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -1345,7 +1354,7 @@
       <Value xsi:type="Motion">
         <Number>44</Number>
         <Name>HLO020RC_高速旋回A(左)無線対応</Name>
-        <Date>2009-07-16T09:17:05.0289888+09:00</Date>
+        <Date>2009-07-16T08:17:05.0289888+08:00</Date>
         <ButtonData>1024</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -1373,7 +1382,7 @@
       <Value xsi:type="Motion">
         <Number>45</Number>
         <Name>HLO021RC_高速旋回A(右)無線対応</Name>
-        <Date>2009-07-16T09:17:08.7477388+09:00</Date>
+        <Date>2009-07-16T08:17:08.7477388+08:00</Date>
         <ButtonData>4096</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -1401,7 +1410,7 @@
       <Value xsi:type="Motion">
         <Number>46</Number>
         <Name>HLO032RC_標準歩行B(前進)無線対応</Name>
-        <Date>2009-09-03T15:39:03.234375+09:00</Date>
+        <Date>2009-09-03T14:39:03.234375+08:00</Date>
         <ButtonData>513</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -1440,7 +1449,7 @@
       <Value xsi:type="Motion">
         <Number>47</Number>
         <Name>HLO033RC_標準歩行B(バック)無線対応</Name>
-        <Date>2009-09-03T15:38:31.4375+09:00</Date>
+        <Date>2009-09-03T14:38:31.4375+08:00</Date>
         <ButtonData>514</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -1479,7 +1488,7 @@
       <Value xsi:type="Motion">
         <Number>48</Number>
         <Name>HLO034RC_標準歩行B(左ステップ)無線対応</Name>
-        <Date>2009-09-03T15:37:06.796875+09:00</Date>
+        <Date>2009-09-03T14:37:06.796875+08:00</Date>
         <ButtonData>520</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
@@ -1507,7 +1516,7 @@
       <Value xsi:type="Motion">
         <Number>49</Number>
         <Name>HLO035RC_標準歩行B(右ステップ)無線対応</Name>
-        <Date>2009-09-03T15:37:13.09375+09:00</Date>
+        <Date>2009-09-03T14:37:13.09375+08:00</Date>
         <ButtonData>516</ButtonData>
         <CompareType>Equals</CompareType>
         <MotionData>
